@@ -45,23 +45,23 @@ body {
 }
 
 .texto {
-    margin-bottom: 1.875rem;
-    font-size: 3rem;
+    margin-bottom: 30px;
+    font-size: 48px;
     text-align: center;
-    width: 53.625rem;
+    width: 858px;
     color: #023300;
 }
 
 .imgs {
     display: flex;
     align-items: center;
-    gap: 1.875rem;
+    gap: 30px;
     justify-content: center;
 }
 
 .imgs img {
-    height: 31.25rem;
-    width: 22.75rem;
+    height: 500px;
+    width: 364px;
     transition: 0.3s;
     border-radius: 5%;
     cursor: pointer;
@@ -82,7 +82,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .625rem;
+    gap: 10px;
 }
 
 .painel img {
@@ -99,5 +99,4 @@ body {
 .ig {
     width: 42px !important;
     height: 42px !important;
-
 }

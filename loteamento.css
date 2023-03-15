@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Crack";
+}
+
+span {
+    font-family: "helvetica";
+    font-size: 35px;
+}
+
+@font-face {
+    font-family: "Crack";
+    src: url("./font/Cream\ Cake.otf") format("opentype");
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(198, 252, 214);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 2rem 0 1rem 0;
+    height: 100px;
+}
+
+.movermeio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: cent;
+    gap: 1.875rem;
+}
+
+.texto {
+    margin-bottom: 1.875rem;
+    font-size: 3rem;
+    text-align: center;
+    width: 53.625rem;
+    color: #023300;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    justify-content: center;
+}
+
+.imgs img {
+    height: 31.25rem;
+    width: 22.75rem;
+    transition: 0.3s;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.imgs img:hover {
+    border-radius: 7%;
+    opacity: 0.9;
+}
+
+.txt {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.painel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .625rem;
+}
+
+.painel img {
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+}
+
+.painel img:hover {
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.ig {
+    width: 42px !important;
+    height: 42px !important;
+
+}

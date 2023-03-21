@@ -87,8 +87,8 @@ body {
 
 .painel img {
     transition: 0.3s;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .painel img:hover {
@@ -97,6 +97,6 @@ body {
 }
 
 .ig {
-    width: 60px !important;
-    height: 60px !important;
+    width: 92px !important;
+    height: 92px !important;
 }

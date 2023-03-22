@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-family: 'Alkatra', cursive;
 }
 
@@ -63,7 +63,8 @@ h3{
 }
 
 .cidade{
-    width: 30%;
+    width: 40%;
+    height: 200px;
     transition: 0.3s;
     border-radius: 5%;
 }

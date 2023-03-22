@@ -62,7 +62,7 @@ h3{
     color: #053406;
 }
 
-.cidade{
+/*.cidade{
     width: 40%;
     height: 200px;
     transition: 0.3s;
@@ -74,7 +74,7 @@ h3{
     border-radius: 6%;
     opacity: 0.9;
     cursor: pointer;
-}
+}*/
 
 .vantagens-fotos-wraper {
     display: flex;
@@ -92,7 +92,7 @@ ul{
     /*display: block;*/
     list-style: url(img/topic.png);
     padding-inline-start: 2.5rem;
-    margin: 1.875rem 0;
+    /*margin: 1.875rem 0;*/
     color: #053406;
     font-size: 35px;
 }

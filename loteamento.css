@@ -89,12 +89,12 @@ h3{
 
 ul{
     text-align: left;
-    /*display: block;*/
-    list-style: url(img/topic.png);
+    /*display: block;
+    list-style: url(img/topic.png);*/
     padding-inline-start: 2.5rem;
     /*margin: 1.875rem 0;*/
     color: #053406;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 li{

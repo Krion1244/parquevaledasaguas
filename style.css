@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media only screen {
+    * {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        font-size: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+    }
+
+    header > img {
+        width: 200px;
+    }
+
+    body {
+        background-color: #F1E8DC;
+    }
+
+    main {
+        min-width: 280px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 20px;
+
+        background-image: linear-gradient(to right,#758B29, #008E95);
+        border-radius: 10px;
+        padding: 20px;
+
+        box-shadow: 0px 0px 60px #7d7873;
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main > h1 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1.4em;
+        color: #F1E8DC;
+    }
+
+    main > h2 {
+        font-family: monospace;
+        text-align: center;
+        font-size: 1em;
+        font-weight: lighter;
+        color: #F1E8DC;
+        margin-bottom: 15px;
+    }
+
+    main > p {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1em;
+        color: #F1E8DC;
+    }
+
+    main > p > strong {
+        font-weight: normal;
+        text-decoration: underline;    
+    }
+
+    div#galeria {
+        margin: 30px 0px;
+        display: flex;
+        gap: 5px;
+        height: 300px;
+        
+    }
+
+    div#galeria img {
+        flex: 1;
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all ease-in-out 0.5s;
+    }
+
+    div#galeria img:hover {
+        flex: 4;
+    }
+
+    div#info-lote {
+        background-color: #006a709b;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    div#info-lote > h2 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1.2em;
+        color: #F1E8DC;
+    }
+
+    div#info-lote > p {
+        margin: 2px;
+        color: #F1E8DC;
+    }
+
+    div#info-lote > p > sup {
+        vertical-align: super;
+        font-size: x-small;
+    }
+
+    div#info-contato > h2 {
+        margin: 20px 0px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 1.4em;
+        color: #F1E8DC;
+    }
+
+    div#info-contato > div#btn-contato {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#info-contato > div#btn-contato > a {
+        text-decoration: none;
+        margin: 10px;
+
+    }
+
+    div#info-contato > div#btn-contato > a > img {
+        width: 40px;
+    }
+
+    div#info-contato > div#btn-contato > a > img:hover {
+        background-color: rgb(190, 185, 185);
+        border-radius: 9%;
+        opacity: 10px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    main > h1 {
+        font-size: 1em;
+    }
+
+    main > h2 {
+        font-size: 0.9em;
+    }
+
+    main > p {
+        font-size: 0.9em;
+    }
+}
